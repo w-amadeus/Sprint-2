@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -o ./dist/output.css --minify"
+  },
+  "name": "sprint-2",
+  "version": "1.0.0",
+  "description": "Sprint 2",
+  "main": "",
+  "author": "",
+  "license": "ISC"
+}
