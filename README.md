@@ -1,5 +1,9 @@
 # Sprint 2
+Available Scripts
+In the project directory, you can run:
 
-1. Ejecutar ```npm install``` para instalar TailwindCSS.
-2. Modo desarrollo ```npm run dev```
-3. Modo despliegue ```npm run build```
+```npm run dev```
+Runs the app in the development mode.
+
+```npm run build```
+Builds the app for production.
