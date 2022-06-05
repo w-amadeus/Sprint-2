@@ -5,40 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/output.css" />
-    <title>Document</title>
+    <title>Sprint 2</title>
   </head>
-  <body class="w-80 shadow-md">
-    <header
-      class="h-40 text-center bg-sky-600 flex flex-col justify-center text-white"
-    >
-      <h1>App de Gastos</h1>
-      <h2>Ingresa cuanto pago cada boludo:</h2>
-    </header>
-
-    <div class="flex flex-col gap-4 mt-2 ml-2">
-      <input
-        class="rounded-lg border-2 w-60"
-        type="text"
-        placeholder="Nombre"
-        id="nombre"
-      />
-      <input
-        class="rounded-lg border-2 w-60"
-        type="number"
-        placeholder="Monto"
-        id="monto"
-      />
-      <button class="rounded-lg border-2 w-60 bg-sky-500 text-white">
-        Enviar
-      </button>
-    </div>
-    <div>
-      <ul id="lista-pvtas"></ul>
-    </div>
-    <p class="ml-2">Total: <span id="total">$0</span></p>
-    <p class="ml-2 pb-5">
-      A cada uno le toca aportar: <span id="promedio">$0</span>
-    </p>
+  <body>
+    <main class="container mt-20 w-80 shadow-md rounded-md">
+      <header
+        class="h-40 text-center bg-sky-500 flex flex-col justify-center text-white rounded-md"
+      >
+        <h1>App de Gastos</h1>
+        <h2>Ingresa cuánto pagó cada persona:</h2>
+      </header>
+      <div class="container">
+        <div class="flex flex-col gap-4 mt-2 ml-2">
+          <input
+            class="rounded-lg border-2 w-60"
+            type="text"
+            placeholder="Nombre"
+            id="name"
+          />
+          <input
+            class="rounded-lg border-2 w-60"
+            type="number"
+            placeholder="Monto"
+            id="amount"
+          />
+          <button class="rounded-lg border-2 w-60 bg-sky-500 text-white">
+            Enviar
+          </button>
+        </div>
+        <div>
+          <ul id="list"></ul>
+        </div>
+      </div>
+      <p class="ml-2">Total: <span id="total">$0</span></p>
+      <p class="ml-2 pb-5">
+        A cada uno le toca aportar: <span id="mean">$0</span>
+      </p>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
